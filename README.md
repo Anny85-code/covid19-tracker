@@ -1,44 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# space-travellers
 
-In the project directory, you can run:
+## Live preview from [Netlify](https://space-travellers-farid-anny.netlify.app/)
+## Live preview from [heroku](https://spacetravelershubapp.herokuapp.com/)
 
-### `npm start`
+This a space-travellers website
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Space-travellers is an app that shows rockets and their missions. It is built using React and Redux
 
-### `npm test`
+![rockets-image](https://user-images.githubusercontent.com/87186552/156379820-3e11ea74-556f-41a2-963f-244ed33f7faf.png)
+![mission-image](https://user-images.githubusercontent.com/87186552/156380815-6e45ebb6-30c8-451b-8fb7-82eadacda7e5.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- React
+- Redux
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To get the content of this project locally you need to run this command in your terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- git clone your https://github.com/Anny85-code/space-travelers-app.git
+- cd project space-travellers
+- npm install
+- npm start
 
-### `npm run eject`
+### Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is deployed on a github page on the link below:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- https://anny85-code.github.io/space-travelers-hub/
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Authors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Aniekan udo**
 
-## Learn More
+- GitHub: [@Anny85-code](https://github.com/Anny85-code)
+- Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Matovu Farid Nkoba**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@matovu-farid](https://github.com/matovu-farid)
+- Twitter: [@matovu100](https://twitter.com/matovu100)
+- LinkedIn: [matovu-farid](https://www.linkedin.com/in/matovu-farid-48b80257)
+
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
