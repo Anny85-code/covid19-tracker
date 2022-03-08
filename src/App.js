@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchItemData());
   }, []);
-  
+
   return (
     <div>
       <MainRoutes />
