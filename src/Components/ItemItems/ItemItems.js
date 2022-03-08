@@ -1,16 +1,20 @@
 import './ItemItems.css';
 import propTypes from 'prop-types';
 
-const ItemItems = ({ id, name, todayConfirmed }) => (
+const ItemItems = ({
+  id, name, todayConfirmed, source,
+}) => (
   <li key={id} className="li-content">
     <div className="content name">{name}</div>
     <div className="content status center-container">{todayConfirmed}</div>
+    <div>{source}</div>
   </li>
 );
 ItemItems.propTypes = {
   id: propTypes.string.isRequired,
   name: propTypes.string.isRequired,
   todayConfirmed: propTypes.number.isRequired,
+  source: propTypes.string.isRequired,
 };
 
 export default ItemItems;
