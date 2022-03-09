@@ -6,7 +6,9 @@ const ItemItems = ({
 }) => (
   <li key={id} className="li-content">
     <div className="content name">{name}</div>
-    <div className="content status center-container">{todayConfirmed}</div>
+    <div className="content status center-container">
+      {new Intl.NumberFormat().format(todayConfirmed)}
+    </div>
     <div>{source}</div>
   </li>
 );

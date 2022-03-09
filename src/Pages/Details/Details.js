@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { IoIosArrowBack } from 'react-icons/io';
 import { date, newDate } from '../../Redux/Items/Items';
-import ItemItems from '../../Components/ItemItems/ItemItems';
+import DetailItems from '../../Components/DetailItems/DetailItems';
 
 const Details = () => {
   const navigate = useNavigate();
@@ -35,12 +35,17 @@ const Details = () => {
       <div>
         <IoIosArrowBack onClick={handleNavigate} />
         {countryDetails.map((data) => (
-          <ItemItems
+          <DetailItems
+            country={data.name}
             key={data.id}
-            id={data.id}
-            name={data.name}
             todayConfirmed={data.today_confirmed}
+            todayDeaths={data.today_deaths}
+            todayNewConfirmed={data.today_new_confirmed}
+            todayNewDeaths={data.today_new_deaths}
             source={data.source}
+            todayNewRecovered={data.today_new_recovered}
+            todayRecovered={data.today_recovered}
+            yesterdayDeaths={data.yesterday_deaths}
           />
         ))}
       </div>
