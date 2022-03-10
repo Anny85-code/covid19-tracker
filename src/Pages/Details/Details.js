@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { IoIosArrowBack } from 'react-icons/io';
+import Loader from 'react-spinners/ScaleLoader';
 import { date, newDate } from '../../Redux/Items/Items';
 import DetailItems from '../../Components/DetailItems/DetailItems';
 
@@ -32,12 +33,13 @@ const Details = () => {
   }, []);
   return (
     <div>
+      {!countryDetails.length && <Loader />}
       <div>
-        <IoIosArrowBack onClick={handleNavigate} />
+        <IoIosArrowBack color="red" onClick={handleNavigate} />
         {countryDetails.map((data) => (
           <DetailItems
-            country={data.name}
             key={data.id}
+            country={data.name}
             todayConfirmed={data.today_confirmed}
             todayDeaths={data.today_deaths}
             todayNewConfirmed={data.today_new_confirmed}

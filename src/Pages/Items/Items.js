@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Loader from 'react-spinners/ScaleLoader';
 import ItemItems from '../../Components/ItemItems/ItemItems';
 import './Items.css';
 
@@ -21,14 +22,21 @@ const Items = () => {
 
   return (
     <div className="main-container">
-      <h1>Covid 19 Countries&apos;s Data</h1>
-      <p>{new Intl.NumberFormat().format(sum)}</p>
-      <input
-        type="text"
-        placeholder="Enter Country..."
-        onChange={handleChange}
-      />
-      <ul>
+      <div className="header">
+        <h1>Covid 19 Countries&apos;s Data</h1>
+        <p>{new Intl.NumberFormat().format(sum)}</p>
+        {!itemData.length && <Loader />}
+      </div>
+      <div className="stat">
+        <p className="stat-text">Stats by Country</p>
+        <input
+          type="text"
+          placeholder="Enter Country..."
+          onChange={handleChange}
+        />
+      </div>
+
+      <ul className="countries-datails">
         {filterItems.length > 0
           ? filterItems.slice(0, 10).map((item) => (
             <Link

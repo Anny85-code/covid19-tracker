@@ -1,0 +1,21 @@
+/* .li-content:nth-child(even) {
+  background: hsl(342, 54%, 44%)
+}
+
+.li-content:nth-child(odd) {
+  background-color: hsl(342, 96%, 68%);
+} */
+
+.li-content{
+  height: 200px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.infos-circle{
+  flex:1;
+  margin-bottom: 140px;
+}

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import './DetailItems.css';
 
-const Country = ({
+const DetailItems = ({
   country,
   source,
   todayConfirmed,
@@ -13,7 +13,7 @@ const Country = ({
   yesterdayDeaths,
   todayRecovered,
 }) => (
-  <div>
+  <div className="display-items">
     <h2>{country}</h2>
     <ul className="details-wrapper">
       <li className="country-detail">
@@ -76,7 +76,8 @@ const Country = ({
     </ul>
   </div>
 );
-Country.propTypes = {
+
+DetailItems.propTypes = {
   todayConfirmed: PropTypes.number.isRequired,
   todayDeaths: PropTypes.number.isRequired,
   todayNewConfirmed: PropTypes.number.isRequired,
@@ -87,4 +88,4 @@ Country.propTypes = {
   todayRecovered: PropTypes.number.isRequired,
   country: PropTypes.string.isRequired,
 };
-export default Country;
+export default DetailItems;

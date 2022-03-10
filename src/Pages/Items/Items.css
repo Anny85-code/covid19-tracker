@@ -1,0 +1,24 @@
+.main-container{
+ background-color: hsl(342, 98%, 63%);;
+}
+
+.countries-datails{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ list-style-type: none;
+}
+
+.header{
+ height: 200px;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+
+.stat{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 30px;
+ background: hsl(342, 86%, 66%)
+}
