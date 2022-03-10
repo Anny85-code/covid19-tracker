@@ -1,5 +1,5 @@
 .main-container{
- background-color: hsl(342, 98%, 63%);;
+ background-color: hsl(342, 98%, 63%);
 }
 
 .countries-datails{
@@ -12,7 +12,12 @@
  height: 200px;
  align-items: center;
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.world-map{
+ height: 200px;
 }
 
 .stat{

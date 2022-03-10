@@ -2,8 +2,12 @@ import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Loader from 'react-spinners/ScaleLoader';
+import ImageSource from '../../Components/ImageSource/ImageSource';
 import ItemItems from '../../Components/ItemItems/ItemItems';
 import './Items.css';
+
+const url = 'https://raw.githubusercontent.com/rachidelaid/worldMaps/main/maps/world/vector.svg';
+let imageLink = '';
 
 const Items = () => {
   const itemData = useSelector((state) => state.items);
@@ -23,8 +27,11 @@ const Items = () => {
   return (
     <div className="main-container">
       <div className="header">
-        <h1>Covid 19 Countries&apos;s Data</h1>
-        <p>{new Intl.NumberFormat().format(sum)}</p>
+        <img src={url} className="world-map" alt="world-map" />
+        <div>
+          <h1>Covid 19 Countries&apos;s Data</h1>
+          <p>{new Intl.NumberFormat().format(sum)}</p>
+        </div>
         {!itemData.length && <Loader />}
       </div>
       <div className="stat">
@@ -38,34 +45,42 @@ const Items = () => {
 
       <ul className="countries-datails">
         {filterItems.length > 0
-          ? filterItems.slice(0, 10).map((item) => (
-            <Link
-              key={item.id}
-              to={{
-                pathname: `${item.name}`,
-              }}
-            >
-              <ItemItems
-                id={item.id}
-                name={item.name}
-                todayConfirmed={item.today_confirmed}
-              />
-            </Link>
-          ))
-          : itemData.slice(0, 10).map((item) => (
-            <Link
-              key={item.id}
-              to={{
-                pathname: `${item.name}`,
-              }}
-            >
-              <ItemItems
-                id={item.id}
-                name={item.name}
-                todayConfirmed={item.today_confirmed}
-              />
-            </Link>
-          ))}
+          ? filterItems.slice(0, 10).map((item) => {
+            imageLink = ImageSource(item.name);
+            return (
+              <Link
+                key={item.id}
+                to={{
+                  pathname: `${item.name}`,
+                }}
+              >
+                <ItemItems
+                  id={item.id}
+                  map={imageLink}
+                  name={item.name}
+                  todayConfirmed={item.today_confirmed}
+                />
+              </Link>
+            );
+          })
+          : itemData.slice(0, 10).map((item) => {
+            imageLink = ImageSource(item.name);
+            return (
+              <Link
+                key={item.id}
+                to={{
+                  pathname: `${item.name}`,
+                }}
+              >
+                <ItemItems
+                  id={item.id}
+                  map={imageLink}
+                  name={item.name}
+                  todayConfirmed={item.today_confirmed}
+                />
+              </Link>
+            );
+          })}
       </ul>
     </div>
   );

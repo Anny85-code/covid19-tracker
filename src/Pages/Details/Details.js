@@ -4,6 +4,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 import Loader from 'react-spinners/ScaleLoader';
 import { date, newDate } from '../../Redux/Items/Items';
 import DetailItems from '../../Components/DetailItems/DetailItems';
+import ImageSource from '../../Components/ImageSource/ImageSource';
 
 const Details = () => {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ const Details = () => {
     .match(/[a-zA-Z0-9]/gm)
     .join('')
     .replaceAll('20', ' ');
+  const imageLink = ImageSource(countryData);
 
   const url = `https://api.covid19tracking.narrativa.com/api/${date}/country/${countryData}`;
   const fetchCountryDetails = async () => {
@@ -39,6 +41,7 @@ const Details = () => {
         {countryDetails.map((data) => (
           <DetailItems
             key={data.id}
+            map={imageLink}
             country={data.name}
             todayConfirmed={data.today_confirmed}
             todayDeaths={data.today_deaths}

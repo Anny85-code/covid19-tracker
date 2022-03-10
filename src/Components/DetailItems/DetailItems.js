@@ -12,9 +12,13 @@ const DetailItems = ({
   todayNewRecovered,
   yesterdayDeaths,
   todayRecovered,
+  map,
 }) => (
   <div className="display-items">
-    <h2>{country}</h2>
+    <div className="details-header">
+      <img className="country-map" alt="country-map" src={map} />
+      <h2>{country}</h2>
+    </div>
     <ul className="details-wrapper">
       <li className="country-detail">
         <span>Total Confirmed</span>
@@ -87,5 +91,6 @@ DetailItems.propTypes = {
   yesterdayDeaths: PropTypes.number.isRequired,
   todayRecovered: PropTypes.number.isRequired,
   country: PropTypes.string.isRequired,
+  map: PropTypes.string.isRequired,
 };
 export default DetailItems;
