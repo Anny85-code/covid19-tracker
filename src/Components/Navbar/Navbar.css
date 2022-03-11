@@ -1,27 +1,28 @@
-*{
- margin: 0;
- padding: 0;
-}
-.navbar{
- display: flex;
- height: 60px;
- background: hsl(342, 86%, 66%);
- justify-content: space-between;
- align-items: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.date{
- flex:2;
+.navbar {
+  display: flex;
+  height: 60px;
+  background: hsl(342, 86%, 66%);
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-txt{
- flex:4;
+.date {
+  flex: 2;
 }
 
-.icons{
- flex:1;
+.header-txt {
+  flex: 4;
 }
 
-.mic{
- flex:1;
+.icons {
+  flex: 1;
+}
+
+.mic {
+  flex: 1;
 }
