@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  background: hsl(342, 86%, 66%);
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.date {
+  flex: 2;
+}
+
+.header-txt {
+  flex: 4;
+}
+
+.icons {
+  flex: 1;
+}
+
+.mic {
+  flex: 1;
+}

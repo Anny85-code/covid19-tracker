@@ -1,0 +1,51 @@
+.main-container {
+  background-color: hsl(342, 98%, 63%);
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.countries-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  height: 100vh;
+}
+
+.header {
+  height: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.world-map {
+  height: 150px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  background: hsl(342, 86%, 66%);
+  padding: 5px 10px 0 10px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.total {
+  margin-left: 5px;
+}
+
+input {
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .countries-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
