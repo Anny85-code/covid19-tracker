@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# space-travellers
+# COVID 19 DATA APP
 
 ## Live preview from [Netlify](https://space-travellers-farid-anny.netlify.app/)
 ## Live preview from [heroku](https://spacetravelershubapp.herokuapp.com/)
@@ -9,24 +9,31 @@ This a space-travellers website
 
 ## Description
 
-Space-travellers is an app that shows rockets and their missions. It is built using React and Redux
+In this project I used the real COVID-19 data from Narrativa API. It is mobile application for a daily tracking of Covid 19 global data for each country. There are covid 19 active cases, recoveries and deaths across all the countries in the world.The application will allow users select country and with click on it's specific country and the data will display on other page. It is build using React and Redux libraries.
 
-![rockets-image](https://user-images.githubusercontent.com/87186552/156379820-3e11ea74-556f-41a2-963f-244ed33f7faf.png)
-![mission-image](https://user-images.githubusercontent.com/87186552/156380815-6e45ebb6-30c8-451b-8fb7-82eadacda7e5.png)
+![covid19-mobile](https://user-images.githubusercontent.com/87186552/157870385-257b5d1d-0484-48e1-a7bf-be18ad6d8cba.png)
+
+![covid19-mobile2](https://user-images.githubusercontent.com/87186552/157871289-522d0bb7-0404-4a09-8164-d78516c7de49.png)
 
 ## Built With
 
 - React
 - Redux
+- JSX
+- CSS
+- API
+- Setup
+- To run this project, install it localy using:
 
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- git clone your https://github.com/Anny85-code/space-travelers-app.git
-- cd project space-travellers
+- git clone your https://github.com/Anny85-code/metric-webapp.git
+- cd project metric-webapp
 - npm install
 - npm start
+  
 
 ### Deployment
 
@@ -42,14 +49,47 @@ This project is deployed on a github page on the link below:
 - Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
 
-👤 **Matovu Farid Nkoba**
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-- GitHub: [@matovu-farid](https://github.com/matovu-farid)
-- Twitter: [@matovu100](https://twitter.com/matovu100)
-- LinkedIn: [matovu-farid](https://www.linkedin.com/in/matovu-farid-48b80257)
+The page will reload when you make changes.
 
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
+See the section about deployment for more information.
+
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
+
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support
+Give a ⭐️ if you like this project!
+
+Acknowledgments
+A special thanks to Nelson Sakwa on Behance, author of the original design.
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+Contact
+Created by @Anny85-code
