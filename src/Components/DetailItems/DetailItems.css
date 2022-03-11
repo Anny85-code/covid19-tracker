@@ -38,7 +38,8 @@ span {
 
 .display-items {
   background-color: hsl(342, 98%, 63%);
-  height: 150vh;
+  height: 170vh;
+  font-family: 'Lato', sans-serif;
 }
 
 .details-header {
@@ -47,6 +48,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
 }
 
 li {

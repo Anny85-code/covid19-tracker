@@ -6,7 +6,9 @@
   color: #fff;
   list-style-type: none;
   padding-right: 15px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
 }
 
 .li-content:nth-child(even) {

@@ -9,6 +9,7 @@
   background: hsl(342, 86%, 66%);
   justify-content: space-between;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .date {
