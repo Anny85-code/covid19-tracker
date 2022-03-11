@@ -1,25 +1,47 @@
-/* .li-content:nth-child(even) {
-  background: hsl(342, 54%, 44%)
+.li-content:nth-child(even) {
+  background-color: hsl(342, 54%, 44%);
 }
 
-.li-content:nth-child(odd) {
-  background-color: hsl(342, 96%, 68%);
-} */
-
-.li-content{
-  height: 200px;
+.li-content {
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   color: #fff;
+  list-style-type: none;
+  padding-right: 15px;
+  font-weight: bold;
 }
 
-.infos-circle{
-  flex:1;
-  margin-bottom: 140px;
+.li-content:nth-child(odd) {
+  background-color: hsl(342, 96%, 68%);
 }
 
-.country-map{
+a {
+  text-decoration: none;
+}
+
+.infos-circle {
+  flex: 1;
+}
+
+.country-map {
   height: 150px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .country-map {
+    margin-right: 0;
+  }
+
+  .li-content {
+    width: 170px;
+    margin-right: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 }

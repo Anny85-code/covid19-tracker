@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of covid19 data Snapshot of DetailItems Component 1`] = `
+<div
+  className="display-items"
+>
+  <div
+    className="details-header"
+  >
+    <img
+      alt="country-map"
+      className="country-map"
+    />
+    <div>
+      <h2 />
+      <li
+        className="country-detail h"
+      >
+        <small />
+        <span
+          className="hd"
+        >
+          Total Confirmed
+        </span>
+      </li>
+    </div>
+  </div>
+  <div
+    className="stat"
+  >
+    Stat Breakdown
+  </div>
+  <ul
+    className="details-wrapper"
+  >
+    <li
+      className="source country-detail"
+    >
+      <span>
+        Source
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Total Deaths
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Yesterday's Deaths
+      </span>
+      <span>
+        <small />
+        <small>
+           
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Today Recovered
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Today New Confirmed
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Today New Deaths
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+    <li
+      className="country-detail"
+    >
+      <span>
+        Today New Recovered
+      </span>
+      <span>
+        <small />
+        <small>
+          <svg
+            className="infos-circle"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </small>
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Snapshot of covid19 data Snapshot of ItemItems Component 1`] = `
+<ul
+  className="li-content"
+>
+  <li>
+    <svg
+      className="infos-circle"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </li>
+  <li>
+    <img
+      alt="country-map"
+      className="country-map"
+    />
+  </li>
+  <li>
+    <div
+      className="content name"
+    />
+    <div
+      className="content status center-container"
+    >
+      NaN
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Snapshot of covid19 data Snapshot of Spinner Component 1`] = `
+<div
+  className="spinner"
+>
+  <span
+    className="css-1xdhyk6"
+  >
+    <span
+      className="css-1ionjmu"
+    />
+    <span
+      className="css-1dx4to7"
+    />
+    <span
+      className="css-8elkgk"
+    />
+    <span
+      className="css-1ip0fzg"
+    />
+    <span
+      className="css-of60g4"
+    />
+  </span>
+</div>
+`;

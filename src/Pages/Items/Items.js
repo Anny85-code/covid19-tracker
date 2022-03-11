@@ -29,8 +29,11 @@ const Items = () => {
       <div className="header">
         <img src={url} className="world-map" alt="world-map" />
         <div>
-          <h1>Covid 19 Countries&apos;s Data</h1>
-          <p>{new Intl.NumberFormat().format(sum)}</p>
+          <h2>Countries</h2>
+          <p>
+            {new Intl.NumberFormat().format(sum)}
+            <span className="total">Total</span>
+          </p>
         </div>
         {!itemData.length && <Loader />}
       </div>
@@ -43,7 +46,7 @@ const Items = () => {
         />
       </div>
 
-      <ul className="countries-datails">
+      <div className="countries-details">
         {filterItems.length > 0
           ? filterItems.slice(0, 10).map((item) => {
             imageLink = ImageSource(item.name);
@@ -81,7 +84,7 @@ const Items = () => {
               </Link>
             );
           })}
-      </ul>
+      </div>
     </div>
   );
 };

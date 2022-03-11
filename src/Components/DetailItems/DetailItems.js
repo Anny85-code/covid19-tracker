@@ -17,65 +17,80 @@ const DetailItems = ({
   <div className="display-items">
     <div className="details-header">
       <img className="country-map" alt="country-map" src={map} />
-      <h2>{country}</h2>
+      <div>
+        <h2>{country}</h2>
+        <li className="country-detail h">
+          <small>{todayConfirmed}</small>
+          <span className="hd">Total Confirmed</span>
+        </li>
+      </div>
     </div>
+    <div className="stat">Stat Breakdown</div>
     <ul className="details-wrapper">
-      <li className="country-detail">
-        <span>Total Confirmed</span>
-        <small>
-          {todayConfirmed}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
-      </li>
-      <li className="source">
+      <li className="source country-detail">
         <span>Source</span>
-        <small>
-          {source}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{source}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
       <li className="country-detail">
         <span>Total Deaths</span>
-        <small>
-          {todayDeaths}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{todayDeaths}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
       <li className="country-detail">
         <span>Yesterday&apos;s Deaths</span>
-        <small>
-          {yesterdayDeaths}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{yesterdayDeaths}</small>
+          <small>
+            {' '}
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
 
       <li className="country-detail">
         <span>Today Recovered</span>
-        <small>
-          {todayRecovered}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{todayRecovered}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
       <li className="country-detail">
         <span>Today New Confirmed</span>
-        <small>
-          {todayNewConfirmed}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{todayNewConfirmed}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
       <li className="country-detail">
         <span>Today New Deaths</span>
-        <small>
-          {todayNewDeaths}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{todayNewDeaths}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
       <li className="country-detail">
         <span>Today New Recovered</span>
-        <small>
-          {todayNewRecovered}
-          <BsArrowRightCircle className="infos-circle" />
-        </small>
+        <span>
+          <small>{todayNewRecovered}</small>
+          <small>
+            <BsArrowRightCircle className="infos-circle" />
+          </small>
+        </span>
       </li>
     </ul>
   </div>

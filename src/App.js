@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="overall-main">
       <Navbar />
       <MainRoutes />
     </div>

@@ -1,7 +1,58 @@
-.country-details{
- display: block;
+.country-detail{
+ height: 100px;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
 }
 
+.hd{
+ margin-right: 30px;
+}
+
+.h{
+ padding: 0;
+}
+
+.h > small{
+ margin-right: 5px;
+ font-size: 17px;
+}
+
+.h > span{
+ font-weight: 100;
+}
+
+small{
+ margin-right: 20px;
+ font-size: 17px;
+}
+
+span{
+ font-size: 17px;
+ font-weight: bold;
+}
+
+.country-detail:nth-child(odd) {
+  background-color: hsl(342, 96%, 68%);
+} 
+
 .display-items{
- color: red;
+ background-color: hsl(342, 98%, 63%);
+ height: 150vh;
+}
+
+.details-header{
+  height: 200px;
+ align-items: center;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+li{
+ list-style-type: none;
+}
+
+.country-map{
+ padding-left: 10px;
 }

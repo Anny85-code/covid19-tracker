@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { IoIosArrowBack } from 'react-icons/io';
+import { useLocation } from 'react-router-dom';
 import Loader from 'react-spinners/ScaleLoader';
 import { date, newDate } from '../../Redux/Items/Items';
 import DetailItems from '../../Components/DetailItems/DetailItems';
 import ImageSource from '../../Components/ImageSource/ImageSource';
 
 const Details = () => {
-  const navigate = useNavigate();
   const location = useLocation();
   const [countryDetails, setCountryDetails] = useState([]);
-
-  const handleNavigate = () => {
-    navigate('/');
-  };
 
   const countryData = location.pathname
     .match(/[a-zA-Z0-9]/gm)
@@ -34,10 +28,9 @@ const Details = () => {
     fetchCountryDetails();
   }, []);
   return (
-    <div>
+    <div className="details-display">
       {!countryDetails.length && <Loader />}
       <div>
-        <IoIosArrowBack color="red" onClick={handleNavigate} />
         {countryDetails.map((data) => (
           <DetailItems
             key={data.id}
