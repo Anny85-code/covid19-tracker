@@ -2,8 +2,8 @@
 
 # COVID 19 DATA APP
 
-## Live preview from [Netlify](https://space-travellers-farid-anny.netlify.app/)
-## Live preview from [heroku](https://spacetravelershubapp.herokuapp.com/)
+## Live [Video](https://drive.google.com/file/d/10L16gQk-Q8YKtgRjStBRxwEQRhl5ltOh/view?usp=sharing)
+## Live preview from [heroku](https://covid19-dataapp.herokuapp.com/)
 
 This a space-travellers website
 
