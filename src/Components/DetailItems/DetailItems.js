@@ -17,7 +17,7 @@ const DetailItems = ({
   <div className="display-items">
     <div className="details-header">
       <img className="country-map" alt="country-map" src={map} />
-      <div>
+      <div className="header">
         <h2>{country}</h2>
         <li className="country-detail h">
           <small>{todayConfirmed}</small>
