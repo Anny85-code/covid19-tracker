@@ -48,4 +48,8 @@ input {
   .countries-details {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .header {
+    padding: 0 10px 0 10px;
+  }
 }

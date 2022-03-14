@@ -2,7 +2,7 @@
   "name": "metric-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anny85-code.github.io/metric-webapp/",
+  "homepage": "https://Anny85-code.github.io/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^4.2.4",

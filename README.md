@@ -34,13 +34,6 @@ To get the content of this project locally you need to run this command in your 
 - npm install
 - npm start
   
-
-### Deployment
-
-This project is deployed on a github page on the link below:
-
-- https://anny85-code.github.io/space-travelers-hub/
-
 ## Authors
 
 👤 **Aniekan udo**
